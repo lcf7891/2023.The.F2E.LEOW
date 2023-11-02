@@ -1,0 +1,11 @@
+.font-mantou {
+  font-family: $font-mantou;
+}
+
+.text-primary-gradient {
+  display: inline-block;
+  background: linear-gradient(90deg, #E5793B 1.54%, #FF4185 97.86%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
