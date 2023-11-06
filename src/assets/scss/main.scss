@@ -2,6 +2,8 @@
 @import './base/variables';
 @import './base/font-style';
 
-// bootstrap
+// Bootstrap
 @import './vendors/bootstrap';
 
+// Customize
+@import './components/elect-number';

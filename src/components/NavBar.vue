@@ -23,15 +23,16 @@
           <a class="nav-link link-hover link-secondary fs-md" href="#">民眾服務信箱</a>
         </li>
       </ul>
+
       <div class="nav d-md-flex d-none">
           <a class="nav-link p-2" href="#">
-            <img src="../assets/images/icon/fb.png" alt="Facebook">
+            <img src="@/assets/images/icon/fb.png" alt="Facebook">
           </a>
           <a class="nav-link p-2" href="#">
-            <img src="../assets/images/icon/ig.png" alt="Instagram">
+            <img src="@/assets/images/icon/ig.png" alt="Instagram">
           </a>
           <a class="nav-link p-2" href="#">
-            <img src="../assets/images/icon/yt.png" alt="YouTube">
+            <img src="@/assets/images/icon/yt.png" alt="YouTube">
           </a>
       </div>
     </div>
