@@ -2,8 +2,8 @@
   <nav class="navbar navbar-expand-lg py-3 px-md-6 px-4 my-md-4 mx-md-6">
     <div class="container-fluid px-0">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img class="me-2" src="../assets/images/logo.png" alt="logo">
-        <span class="text-primary fs-4 fw-bold">喵立翰 Miao Li-Han</span>
+        <img class="me-2" src="@/assets/images/logo.png" alt="logo">
+        <span class="text-primary bgGradient-hover fs-4 fw-bold">喵立翰 Miao Li-Han</span>
       </a>
 
       <ul class="navbar-nav d-lg-flex d-none">
@@ -26,13 +26,13 @@
 
       <div class="nav d-md-flex d-none">
           <a class="nav-link p-2" href="#">
-            <img src="@/assets/images/icon/fb.png" alt="Facebook">
+            <img class="img-zoom" src="@/assets/images/icon/fb.png" alt="Facebook">
           </a>
           <a class="nav-link p-2" href="#">
-            <img src="@/assets/images/icon/ig.png" alt="Instagram">
+            <img class="img-zoom" src="@/assets/images/icon/ig.png" alt="Instagram">
           </a>
           <a class="nav-link p-2" href="#">
-            <img src="@/assets/images/icon/yt.png" alt="YouTube">
+            <img class="img-zoom" src="@/assets/images/icon/yt.png" alt="YouTube">
           </a>
       </div>
     </div>

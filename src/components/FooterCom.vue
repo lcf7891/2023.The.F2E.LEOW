@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 mb-lg-0 mb-6">
           <h4 class="d-flex align-items-center text-primary fs-3 fw-bold mb-4">
-            <span class="electNum text-white fs-4 py-1 px-3 me-2">
+            <span class="bgGradient rounded-circle text-white fs-4 py-1 px-3 me-2">
               3
             </span>
             喵立翰 Miao Li-Han
@@ -12,17 +12,17 @@
           <ul class="nav mb-4">
             <li class="nav-item bg-white rounded-circle m-1 py-2">
               <a class="nav-link" href="#">
-                <img src="@/assets/images/icon/fb.png" alt="Facebook">
+                <img class="img-zoom" src="@/assets/images/icon/fb.png" alt="Facebook">
               </a>
             </li>
             <li class="nav-item bg-white rounded-circle m-1 py-2">
               <a class="nav-link" href="#">
-                <img src="@/assets/images/icon/ig.png" alt="Instagram">
+                <img class="img-zoom" src="@/assets/images/icon/ig.png" alt="Instagram">
               </a>
             </li>
             <li class="nav-item bg-white rounded-circle m-1 py-2">
               <a class="nav-link" href="#">
-                <img src="@/assets/images/icon/yt.png" alt="YouTube">
+                <img class="img-zoom" src="@/assets/images/icon/yt.png" alt="YouTube">
               </a>
             </li>
           </ul>

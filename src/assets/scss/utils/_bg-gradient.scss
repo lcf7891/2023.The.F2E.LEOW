@@ -1,0 +1,16 @@
+.bgGradient {
+  background: linear-gradient(90deg, #E5793B 1.54%, #FF4185 97.86%);
+  &-hover {
+    &:hover {
+      animation: animateColor 5s linear infinite;
+    }
+  }
+  @keyframes animateColor {
+    0% {
+      filter: hue-rotate(0deg)
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+}
