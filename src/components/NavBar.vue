@@ -2,29 +2,44 @@
   <nav class="navbar navbar-expand-lg py-3 px-md-6 px-4 my-md-4 mx-md-6">
     <div class="container-fluid px-0">
       <h1 class="bgGradient-hover">
-        <a class="navbar-brand d-flex align-items-center" href="#">
+        <router-link class="navbar-brand d-flex align-items-center" to="/">
           <img class="me-2" src="@/assets/images/logo.png" alt="logo">
           <span class="h4 text-primary fw-bold mb-0">
             喵立翰 Miao Li-Han
           </span>
-        </a>
+        </router-link>
       </h1>
 
       <ul class="navbar-nav d-lg-flex d-none">
         <li class="nav-item">
-          <a class="nav-link link-hover link-secondary display-5" href="#">候選人主張</a>
+          <router-link class="nav-link link-hover link-secondary
+                        display-5" to="/">
+            候選人主張
+          </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link link-hover link-secondary display-5" href="#">最新活動</a>
+          <router-link class="nav-link link-hover link-secondary
+                        display-5" to="/">
+            最新活動
+          </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link link-hover link-secondary display-5" href="#">政策議題</a>
+          <router-link class="nav-link link-hover link-secondary
+                        display-5" to="/">
+            政策議題
+          </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link link-hover link-secondary display-5" href="#">小額捐款</a>
+          <router-link class="nav-link link-hover link-secondary
+                        display-5" to="/">
+            小額捐款
+          </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link link-hover link-secondary display-5" href="#">民眾服務信箱</a>
+          <router-link class="nav-link link-hover link-secondary
+                        display-5" to="/">
+            民眾服務信箱
+          </router-link>
         </li>
       </ul>
 

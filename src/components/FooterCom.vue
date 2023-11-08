@@ -3,12 +3,16 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mb-lg-0 mb-6">
-          <h4 class="d-flex align-items-center text-primary h3 w-bold mb-4">
+          <router-link class="bgGradient-hover
+                        d-flex align-items-center
+                        text-primary h3 w-bold
+                        text-decoration-none mb-4"
+                        to="/">
             <span class="bgGradient rounded-circle text-white h5 py-1 px-3 me-2">
               3
             </span>
             喵立翰 Miao Li-Han
-          </h4>
+          </router-link>
           <ul class="nav mb-4">
             <li class="nav-item bg-white rounded-circle m-1 py-2">
               <a class="nav-link" href="#">

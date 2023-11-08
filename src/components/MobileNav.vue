@@ -1,22 +1,28 @@
 <template>
   <ul class="nav justify-content-around">
     <li class="shake">
-      <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
+      <router-link class="nav-link d-flex
+                    flex-column align-items-center
+                    text-secondary px-md-4 p-2" to="/">
         <img src="@/assets/images/icon/user.png" alt="主張">
         候選人主張
-      </a>
+      </router-link>
     </li>
     <li class="shake">
-      <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
+      <router-link class="nav-link d-flex
+                    flex-column align-items-center
+                    text-secondary px-md-4 p-2" to="/">
         <img src="@/assets/images/icon/lists.png" alt="活動">
         最新活動
-      </a>
+      </router-link>
     </li>
     <li class="shake">
-      <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
+      <router-link class="nav-link d-flex
+                    flex-column align-items-center
+                    text-secondary px-md-4 p-2" to="/">
         <img src="@/assets/images/icon/issue.png" alt="議題">
         政策議題
-      </a>
+      </router-link>
     </li>
     <li class="shake">
       <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
