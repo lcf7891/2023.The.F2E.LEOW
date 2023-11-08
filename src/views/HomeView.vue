@@ -1,19 +1,14 @@
 <script>
+import Banner from '@/components/MainVision.vue';
+
 export default {
   name: 'HomeView',
+  components: {
+    Banner,
+  },
 };
 </script>
 
 <template>
-  <header>
-    <slot name="banner"></slot>
-  </header>
-
-  <main>
-    <h1 class="font-mantou text-primary-gradient">最新活動</h1>
-  </main>
-
-  <footer>
-    <slot name="footer"></slot>
-  </footer>
+  <Banner />
 </template>

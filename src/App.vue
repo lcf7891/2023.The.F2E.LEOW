@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <NavBar />
+  <NavBar class="position-sticky top-0 atomization" />
 
   <router-view />
 

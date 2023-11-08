@@ -1,5 +1,7 @@
 .bgGradient {
+  display: inline-block;
   background: linear-gradient(90deg, #E5793B 1.54%, #FF4185 97.86%);
+  margin: 0;
   &-hover {
     &:hover {
       animation: animateColor 5s linear infinite;

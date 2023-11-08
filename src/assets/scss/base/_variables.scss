@@ -8,10 +8,28 @@
 $font-mantou: 'Mantou Sans';
 $font-family-sans-serif: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-$xxl-font-size: 64px;
-$xl-font-size: 52px;
-$md-font-size: 18px;
-$xs-font-size: 14px;
+// $font-sizes: (
+//   1: 96px,
+//   2: 64px,
+//   3: 52px,
+//   4: 40px,
+//   5: 32px,
+//   6: 28px,
+//   7: 24px,
+//   8: 20px,
+//   9: 18px,
+//   10: 16px,
+//   11: 14px,
+// );
+
+$display-font-sizes: (
+  1: 6rem,
+  2: 4rem,
+  3: 3.25rem,
+  4: 2.5rem,
+  5: 1.125rem,
+  6: 0.875rem
+);
 
 $dark-azure-001: #f8fafc;
 $dark-azure-100: #f1f5f9;

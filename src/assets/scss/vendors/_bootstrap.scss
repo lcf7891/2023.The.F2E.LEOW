@@ -42,25 +42,15 @@
 // Helpers
 @import '/node_modules/bootstrap/scss/helpers';
 
-$utilities: map-merge(
-  $utilities,
-  (
-    "font-size": map-merge(
-      map-get($utilities, "font-size"),
-      (
-        values: map-merge(
-          map-get(map-get($utilities, "font-size"), "values"),
-          (
-            'xxl': $xxl-font-size,
-            'xl': $xl-font-size,
-            'md': $md-font-size,
-            'xs': $xs-font-size,
-          ),
-        ),
-      ),
-    ),
-  )
-);
+// $utilities: map-merge(
+//   $utilities,
+//   (
+//     'font-size': map-merge(
+//       map-get($utilities, 'font-size'),
+//       ( responsive: true ),
+//     ),
+//   )
+// );
 
 // Utilities
 @import '/node_modules/bootstrap/scss/utilities/api';

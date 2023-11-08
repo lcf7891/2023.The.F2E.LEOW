@@ -1,31 +1,31 @@
 <template>
   <ul class="nav justify-content-around">
     <li class="shake">
-      <a class="nav-link d-flex flex-column align-items-center" href="#">
+      <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
         <img src="@/assets/images/icon/user.png" alt="主張">
         候選人主張
       </a>
     </li>
     <li class="shake">
-      <a class="nav-link d-flex flex-column align-items-center" href="#">
+      <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
         <img src="@/assets/images/icon/lists.png" alt="活動">
         最新活動
       </a>
     </li>
     <li class="shake">
-      <a class="nav-link d-flex flex-column align-items-center" href="#">
+      <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
         <img src="@/assets/images/icon/issue.png" alt="議題">
         政策議題
       </a>
     </li>
     <li class="shake">
-      <a class="nav-link d-flex flex-column align-items-center" href="#">
+      <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
         <img src="@/assets/images/icon/money.png" alt="捐款">
         小額捐款
       </a>
     </li>
     <li class="shake">
-      <a class="nav-link d-flex flex-column align-items-center" href="#">
+      <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
         <img src="@/assets/images/icon/mail.png" alt="信箱">
         服務信箱
       </a>
@@ -35,7 +35,7 @@
 
 <style lang="scss" scoped>
   .nav-link {
-    font-size: 12px;
+    font-size: 10px;
     img {
       width: 24px;
       height: 24px;

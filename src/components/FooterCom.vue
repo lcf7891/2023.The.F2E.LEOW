@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mb-lg-0 mb-6">
-          <h4 class="d-flex align-items-center text-primary fs-3 fw-bold mb-4">
-            <span class="bgGradient rounded-circle text-white fs-4 py-1 px-3 me-2">
+          <h4 class="d-flex align-items-center text-primary h3 w-bold mb-4">
+            <span class="bgGradient rounded-circle text-white h5 py-1 px-3 me-2">
               3
             </span>
             喵立翰 Miao Li-Han
@@ -26,10 +26,10 @@
               </a>
             </li>
           </ul>
-          <p class="text-secondary fs-xs">© 2023 喵立翰 Miao Li-Han 版權所有</p>
+          <p class="text-secondary display-6">&copy; 2023 喵立翰 Miao Li-Han 版權所有</p>
         </div>
         <div class="col-lg-6">
-          <h4 class="text-secondary fs-4 fw-bold mb-4">競選總部</h4>
+          <h4 class="text-secondary h4 fw-bold mb-4">競選總部</h4>
           <div class="text-secondary">
             <p class="mb-1">辦公室地址：喵星區，毛茸茸大道88號，喵喵大樓3樓</p>
             <p class="mb-1">電話：(02) 888-5678</p>
