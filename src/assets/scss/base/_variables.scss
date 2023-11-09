@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
   font-family: 'Mantou Sans';
@@ -6,7 +6,7 @@
 }
 
 $font-mantou: 'Mantou Sans';
-$font-family-sans-serif: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-family-sans-serif: 'Noto Sans TC', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
 // $font-sizes: (
 //   1: 96px,
@@ -60,6 +60,8 @@ $secondary: $dark-azure-700;
 $tertiary: $dark-azure-400;
 $light: #FDFCFB;
 $info: #F7ECE1;
+
+$body-color: $secondary;
 
 $spacer: 1rem;
 $spacers: (

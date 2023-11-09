@@ -48,6 +48,9 @@
       object-fit: cover;
       margin-bottom: 2px;
     }
+    &:hover {
+      color: #DA7D4A !important;
+    }
   }
   .shake {
     &:hover {

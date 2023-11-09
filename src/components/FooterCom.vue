@@ -8,7 +8,7 @@
                         text-primary h3 w-bold
                         text-decoration-none mb-4"
                         to="/">
-            <span class="bgGradient rounded-circle text-white h5 py-1 px-3 me-2">
+            <span class="bgGradient rounded-circle text-white h5 py-1 px-3 me-2 mb-0">
               3
             </span>
             喵立翰 Miao Li-Han

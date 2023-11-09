@@ -12,31 +12,31 @@
 
       <ul class="navbar-nav d-lg-flex d-none">
         <li class="nav-item">
-          <router-link class="nav-link link-hover link-secondary
+          <router-link class="link-hover text-secondary
                         display-5" to="/">
             候選人主張
           </router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link link-hover link-secondary
+          <router-link class="link-hover text-secondary
                         display-5" to="/">
             最新活動
           </router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link link-hover link-secondary
+          <router-link class="link-hover text-secondary
                         display-5" to="/">
             政策議題
           </router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link link-hover link-secondary
+          <router-link class="link-hover text-secondary
                         display-5" to="/">
             小額捐款
           </router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link link-hover link-secondary
+          <router-link class="link-hover text-secondary
                         display-5" to="/">
             民眾服務信箱
           </router-link>
@@ -60,8 +60,12 @@
 
 <style lang="scss">
   .link-hover {
+    display: block;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
+    border: 0;
+    padding: 8px;
     &::before {
       content: '';
       position: absolute;
@@ -69,11 +73,14 @@
       bottom: 4px;
       width: 100%;
       height: 1px;
-      background-color: #334155;
+      background-color: #DA7D4A;
       transition: .5s ease-in-out;
     }
-    &:hover::before {
-      left: 0;
+    &:hover {
+      color: #DA7D4A !important;
+      &::before {
+        left: 0;
+      }
     }
   }
 </style>

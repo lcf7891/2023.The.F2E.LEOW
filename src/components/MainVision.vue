@@ -14,7 +14,7 @@
         2024 立委參選人
       </p>
       <p class="d-flex justify-content-center align-items-center h1 text-primary fw-bold  mb-0">
-        <span class="bgGradient rounded-circle h2 text-white py-1 px-4 me-2 mb-0">3</span>
+        <span class="bgGradient rounded-circle h2 text-white pt-1 pb-2 px-4 me-2 mb-0">3</span>
         喵立翰 Miao Li-Han
       </p>
     </div>
