@@ -1,10 +1,9 @@
 // Custom variables
 @import './base/variables';
-@import './base/font-style';
 
 // Bootstrap
 @import './vendors/bootstrap';
 
 // Customize
-@import './utils/bg-gradient';
-@import './utils/zoom';
+@import './base/font-style';
+@import './utils/custom-utility';

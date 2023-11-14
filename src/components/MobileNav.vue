@@ -1,5 +1,5 @@
 <template>
-  <ul class="nav justify-content-around">
+  <ul class="nav justify-content-around z-3">
     <li class="shake">
       <router-link class="nav-link d-flex
                     flex-column align-items-center

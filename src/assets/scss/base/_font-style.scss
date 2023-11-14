@@ -1,5 +1,21 @@
+@each $key, $value in $font-size-map {
+  .h#{$key} {
+    @extend %heading;
+    @include font-size($value);
+    font-weight: normal;
+    margin: 0;
+  }
+}
+
+@each $key, $value in $font-weight-map {
+  .fw-#{$key} {
+    font-weight: $value;
+  }
+}
+
 .font-mantou {
   font-family: $font-mantou;
+  letter-spacing: .5rem;
 }
 
 .text-primary-gradient {

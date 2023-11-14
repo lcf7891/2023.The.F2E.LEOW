@@ -1,35 +1,28 @@
 <template>
-  <section class="position-relative bg-primary overflow-hidden">
-    <ul class="marquee font-mantou display-2 text-white">
-      <li class="marquee-item text-white me-6">為喵星人，護台灣！</li>
-      <li class="marquee-item text-white me-6">從喵的眼中，看見台灣</li>
-      <li class="marquee-item text-white me-6">喵的未來，人的希望</li>
-    </ul>
+  <section class="marquee bg-primary font-mantou h2 text-white">
+      <div class="marquee-item text-white">為喵星人，護台灣！從喵的眼中，看見台灣！喵的未來，人的希望！</div>
+      <div class="marquee-item text-white">為喵星人，護台灣！從喵的眼中，看見台灣！喵的未來，人的希望！</div>
   </section>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .marquee {
+    width: 100%;
     position: relative;
     display: flex;
-    align-items: center;
-    list-style-type: none;
-    animation: marquee 15s linear infinite;
-    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
     &-item {
-      width: 100%;
-      white-space: nowrap;
       margin-bottom: 6px;
+      animation: marquee 15s linear infinite;
     }
   }
   @keyframes marquee {
     0% {
-      left: 100%;
-      transform: translateX(0%);
+      transform: none;
     }
 
     100% {
-      left: 0;
       transform: translateX(-100%);
     }
   }

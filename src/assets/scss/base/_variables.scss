@@ -2,33 +2,36 @@
 
 @font-face {
   font-family: 'Mantou Sans';
-  src: url('../fonts/MantouSans-Regular.ttf') format('truetype');
+  src: url('/src/assets/fonts/MantouSans-Regular.ttf') format('truetype');
 }
 
 $font-mantou: 'Mantou Sans';
 $font-family-sans-serif: 'Noto Sans TC', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-// $font-sizes: (
-//   1: 96px,
-//   2: 64px,
-//   3: 52px,
-//   4: 40px,
-//   5: 32px,
-//   6: 28px,
-//   7: 24px,
-//   8: 20px,
-//   9: 18px,
-//   10: 16px,
-//   11: 14px,
-// );
+$font-size-map: (
+  1: 6rem,      // 96px
+  2: 4rem,      // 64px
+  3: 3.25rem,   // 52px
+  4: 2.5rem,    // 40px
+  5: 2rem,      // 32px
+  6: 1.75rem,   // 28px
+  7: 1.5rem,    // 24px
+  8: 1.25rem,   // 20px
+  9: 1.125rem,  // 18px
+  10: 1rem,     // 16px
+  11: .875rem,  // 14px
+);
 
-$display-font-sizes: (
-  1: 6rem,
-  2: 4rem,
-  3: 3.25rem,
-  4: 2.5rem,
-  5: 1.125rem,
-  6: 0.875rem
+$font-weight-map: (
+  1: 100,
+  2: 200,
+  3: 300,
+  4: 400,
+  5: 500,
+  6: 600,
+  7: 700,
+  8: 800,
+  9: 900,
 );
 
 $dark-azure-001: #f8fafc;
@@ -58,8 +61,24 @@ $dark-azure: (
 $primary: #DA7D4A;
 $secondary: $dark-azure-700;
 $tertiary: $dark-azure-400;
+$quaternary: $dark-azure-100;
 $light: #FDFCFB;
 $info: #F7ECE1;
+$white: #FFFFFF;
+
+$theme-colors: (
+  'primary':    $primary,
+  'secondary':  $secondary,
+  'tertiary':   $tertiary,
+  'quaternary': $quaternary,
+  // 'success':    $success,
+  'info':       $info,
+  // 'warning':    $warning,
+  // 'danger':     $danger,
+  'light':      $light,
+  // 'dark':       $dark
+  'white': $white,
+);
 
 $body-color: $secondary;
 

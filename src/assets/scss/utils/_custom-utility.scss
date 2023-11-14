@@ -1,0 +1,86 @@
+.bgGradient {
+  display: inline-block;
+  background: linear-gradient(90deg, #E5793B 1.54%, #FF4185 97.86%);
+  margin: 0;
+  &-hover {
+    &:hover {
+      animation: animateColor 5s linear infinite;
+    }
+  }
+  @keyframes animateColor {
+    0% {
+      filter: hue-rotate(0deg)
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+}
+
+.atomization {
+  backdrop-filter: blur(15px);
+}
+
+.img-zoom {
+  transition: 1s;
+  &:hover {
+    transform: scale(1.3);
+  }
+}
+
+// btn arrow
+@each $key, $value in $theme-colors {
+  .arrow-#{$key} {
+    & .arrow-right {
+      &::before {
+        border-color: $value;
+      }
+      &::after {
+        background-color: $value;
+      }
+    }
+    &:hover {
+      .arrow-right {
+        &::before, &::after {
+          animation: rightTraverse 1s linear infinite;
+        }
+      }
+    }
+  }
+}
+
+.arrow-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 50%;
+    border-style: solid;
+    border-width: 0px 2px 2px 0;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 2px;
+    transform: translateY(-50%);
+  }
+  @keyframes rightTraverse {
+    0% {
+      left: -50%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+}

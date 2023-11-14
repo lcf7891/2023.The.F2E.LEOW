@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <NavBar class="position-sticky top-0 atomization" />
+  <NavBar />
 
   <router-view />
 
@@ -22,7 +22,13 @@ export default {
 </template>
 
 <style lang="scss">
-  .atomization {
-    backdrop-filter: blur(10px);
+  @import './assets/scss/main.scss';
+
+  button {
+    &:hover {
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
   }
 </style>

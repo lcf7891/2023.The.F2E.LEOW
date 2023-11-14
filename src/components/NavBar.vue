@@ -1,10 +1,11 @@
 <template>
-  <nav class="navbar navbar-expand-lg py-3 px-md-6 px-4 my-md-4 mx-md-6">
-    <div class="container-fluid px-0">
-      <h1 class="bgGradient-hover">
+  <nav class="navbar navbar-expand-lg position-md-sticky top-0
+        py-3 px-md-6 px-4 my-md-4 mx-md-6 z-3">
+    <div class="container-fluid atomization rounded-3 p-2">
+      <h1 class="bgGradient-hover mb-0">
         <router-link class="navbar-brand d-flex align-items-center" to="/">
           <img class="me-2" src="@/assets/images/logo.png" alt="logo">
-          <span class="h4 text-primary fw-bold mb-0">
+          <span class="h7 text-primary fw-bold mb-0">
             喵立翰 Miao Li-Han
           </span>
         </router-link>
@@ -13,31 +14,31 @@
       <ul class="navbar-nav d-lg-flex d-none">
         <li class="nav-item">
           <router-link class="link-hover text-secondary
-                        display-5" to="/">
+                        h9" to="/">
             候選人主張
           </router-link>
         </li>
         <li class="nav-item">
           <router-link class="link-hover text-secondary
-                        display-5" to="/">
+                        h9" to="/">
             最新活動
           </router-link>
         </li>
         <li class="nav-item">
           <router-link class="link-hover text-secondary
-                        display-5" to="/">
+                        h9" to="/">
             政策議題
           </router-link>
         </li>
         <li class="nav-item">
           <router-link class="link-hover text-secondary
-                        display-5" to="/">
+                        h9" to="/">
             小額捐款
           </router-link>
         </li>
         <li class="nav-item">
           <router-link class="link-hover text-secondary
-                        display-5" to="/">
+                        h9" to="/">
             民眾服務信箱
           </router-link>
         </li>
@@ -58,7 +59,7 @@
   </nav>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .link-hover {
     display: block;
     position: relative;
