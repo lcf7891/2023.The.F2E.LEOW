@@ -1,4 +1,21 @@
 <template>
+  <aside class="container py-10">
+    <h2 class="d-flex justify-content-center align-items-center
+        flex-lg-row flex-column h2
+        font-mantou text-primary-gradient
+        mb-7">
+      <span class="mx-3">台灣的明天</span>
+      <span class="mx-3">喵先鋪路</span>
+    </h2>
+    <h3 class="bgGradient-hover
+        d-flex justify-content-center align-items-center
+        text-primary h4 fw-7 text-decoration-none mb-4">
+      <span class="bgGradient rounded-circle text-white h5 fw-9 pb-1 px-3 me-2 mb-0">
+        3
+      </span>
+      喵立翰 Miao Li-Han
+    </h3>
+  </aside>
   <footer class="bg-info py-16">
     <div class="container">
       <div class="row">

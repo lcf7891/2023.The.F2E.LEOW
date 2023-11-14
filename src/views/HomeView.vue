@@ -1,5 +1,5 @@
 <script>
-import Banner from '@/components/MainSlogan.vue';
+import Banner from '@/components/HeaderSlogan.vue';
 import MarqueeList from '@/components/MarqueeList.vue';
 import Advocate from '@/components/AdvocateCom.vue';
 import Events from '@/components/LatestEvents.vue';

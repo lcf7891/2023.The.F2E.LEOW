@@ -13,7 +13,7 @@
     </div>
     <div class="row row-cols-lg-2 row-cols-1">
       <div class="col">
-        <div class="card position-relative">
+        <div class="card position-relative rounded-4">
           <img src="@/assets/images/event1.png" class="img-fluid mb-4" alt="有善環境">
           <div class="card-body">
             <p class="h11 text-tertiary mb-2">2023/12/26</p>
@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card position-relative mb-6">
+        <div class="card position-relative rounded-3 mb-6">
           <div class="row g-0">
             <div class="col-4">
               <img src="@/assets/images/event2.png"
@@ -36,7 +36,7 @@
                     alt="掃街拜票">
             </div>
             <div class="col-8">
-              <div class="card-body">
+              <div class="card-body h-100">
                 <p class="h11 text-tertiary mb-2">2023/12/24</p>
                 <h5 class="card-title h10 fw-7 mb-2">
                   掃街模式開啟！帶著你的貓耳，來和我一起走！
@@ -49,7 +49,7 @@
             </div>
           </div>
         </div>
-        <div class="card position-relative mb-6">
+        <div class="card position-relative rounded-3 mb-6">
           <div class="row g-0">
             <div class="col-4">
               <img src="@/assets/images/event3.png"
@@ -57,7 +57,7 @@
                     alt="模特兒比拼">
             </div>
             <div class="col-8">
-              <div class="card-body">
+              <div class="card-body h-100">
                 <p class="h11 text-tertiary mb-2">2023/12/20</p>
                 <h5 class="card-title h10 fw-7 mb-2">
                   收容所模特兒大比拼！
@@ -70,7 +70,7 @@
             </div>
           </div>
         </div>
-        <div class="card position-relative mb-6">
+        <div class="card position-relative rounded-3 mb-6">
           <div class="row g-0">
             <div class="col-4">
               <img src="@/assets/images/event1.png"
@@ -78,7 +78,7 @@
                     alt="有善環境">
             </div>
             <div class="col-8">
-              <div class="card-body">
+              <div class="card-body h-100">
                 <p class="h11 text-tertiary mb-2">2023/12/26</p>
                 <h5 class="card-title h10 fw-7 mb-2">
                   參與台北寵物論壇，爭取貓咪友善環境
@@ -106,5 +106,14 @@
   button {
     border: none;
     outline: none;
+  }
+  .card {
+    transition: 1s ease-in-out;
+    &:hover {
+      background-color: rgba(#DA7D4A, .5);
+    }
+  }
+  .img-fluid {
+    height: 100%;
   }
 </style>
