@@ -91,7 +91,9 @@
             </div>
           </div>
         </div>
-        <button type="button" class="d-flex btn bg-quaternary text-secondary arrow-secondary">
+        <button type="button"
+                class="d-flex bg-quaternary text-secondary arrow-secondary rounded-pill
+                py-2 px-4">
           查看更多
           <span class="arrow-right"></span>
         </button>
@@ -99,3 +101,10 @@
     </div>
   </article>
 </template>
+
+<style lang="scss" scoped>
+  button {
+    border: none;
+    outline: none;
+  }
+</style>

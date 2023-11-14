@@ -4,6 +4,7 @@ import MarqueeList from '@/components/MarqueeList.vue';
 import Advocate from '@/components/AdvocateCom.vue';
 import Events from '@/components/LatestEvents.vue';
 import Issues from '@/components/PolicyIssues.vue';
+import Comminicate from '@/components/DonateMail.vue';
 
 export default {
   name: 'HomeView',
@@ -13,6 +14,7 @@ export default {
     Advocate,
     Events,
     Issues,
+    Comminicate,
   },
 };
 </script>
@@ -23,4 +25,5 @@ export default {
   <Advocate />
   <Events />
   <Issues />
+  <Comminicate />
 </template>

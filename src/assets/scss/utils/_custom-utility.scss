@@ -31,6 +31,7 @@
 // btn arrow
 @each $key, $value in $theme-colors {
   .arrow-#{$key} {
+    color: $value;
     & .arrow-right {
       &::before {
         border-color: $value;
