@@ -23,12 +23,4 @@ export default {
 
 <style lang="scss">
   @import './assets/scss/main.scss';
-
-  button {
-    &:hover {
-      background-color: transparent;
-      border: none;
-      outline: none;
-    }
-  }
 </style>
