@@ -18,7 +18,9 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: process.env.NODE_ENV === 'production'
+  ? createWebHistory()
+  : createWebHashHistory(),
   routes,
 });
 
