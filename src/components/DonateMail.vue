@@ -20,7 +20,7 @@
               </button>
             </div>
             <div class="col-6 col-h">
-              <img src="@/assets/images/image6.png" class="img-fluid" alt="img donate">
+              <img src="@/assets/images/image6.svg" class="img-fluid" alt="img donate">
             </div>
           </div>
         </section>
@@ -44,7 +44,7 @@
               </button>
             </div>
             <div class="col-6 col-h">
-              <img src="@/assets/images/image7.png" class="img-fluid" alt="img mail">
+              <img src="@/assets/images/image7.svg" class="img-fluid" alt="img mail">
             </div>
           </div>
         </section>

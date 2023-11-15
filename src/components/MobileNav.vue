@@ -4,7 +4,7 @@
       <router-link class="nav-link d-flex
                     flex-column align-items-center
                     text-secondary px-md-4 p-2" to="/">
-        <img src="@/assets/images/icon/user.png" alt="主張">
+        <img src="@/assets/images/icon/user.svg" alt="主張">
         候選人主張
       </router-link>
     </li>
@@ -12,7 +12,7 @@
       <router-link class="nav-link d-flex
                     flex-column align-items-center
                     text-secondary px-md-4 p-2" to="/">
-        <img src="@/assets/images/icon/lists.png" alt="活動">
+        <img src="@/assets/images/icon/lists.svg" alt="活動">
         最新活動
       </router-link>
     </li>
@@ -20,19 +20,19 @@
       <router-link class="nav-link d-flex
                     flex-column align-items-center
                     text-secondary px-md-4 p-2" to="/">
-        <img src="@/assets/images/icon/issue.png" alt="議題">
+        <img src="@/assets/images/icon/issue.svg" alt="議題">
         政策議題
       </router-link>
     </li>
     <li class="shake">
       <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
-        <img src="@/assets/images/icon/money.png" alt="捐款">
+        <img src="@/assets/images/icon/money.svg" alt="捐款">
         小額捐款
       </a>
     </li>
     <li class="shake">
       <a class="nav-link d-flex flex-column align-items-center text-secondary px-md-4 p-2" href="#">
-        <img src="@/assets/images/icon/mail.png" alt="信箱">
+        <img src="@/assets/images/icon/mail.svg" alt="信箱">
         服務信箱
       </a>
     </li>

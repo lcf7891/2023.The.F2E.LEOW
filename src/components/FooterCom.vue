@@ -32,17 +32,17 @@
           <ul class="nav mb-4">
             <li class="nav-item">
               <a class="nav-link bg-white rounded-circle p-2" href="#">
-                <img class="img-zoom" src="@/assets/images/icon/fb.png" alt="Facebook">
+                <img class="img-zoom" src="@/assets/images/icon/fb.svg" alt="Facebook">
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link bg-white rounded-circle p-2" href="#">
-                <img class="img-zoom" src="@/assets/images/icon/ig.png" alt="Instagram">
+                <img class="img-zoom" src="@/assets/images/icon/ig.svg" alt="Instagram">
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link bg-white rounded-circle p-2" href="#">
-                <img class="img-zoom" src="@/assets/images/icon/yt.png" alt="YouTube">
+                <img class="img-zoom" src="@/assets/images/icon/yt.svg" alt="YouTube">
               </a>
             </li>
           </ul>

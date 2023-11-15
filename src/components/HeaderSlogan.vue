@@ -23,9 +23,9 @@
     </div>
     <figure class="figure position-relative mx-auto">
       <img class="figure-bg position-absolute bottom-0"
-            src="@/assets/images/image11.png" alt="background">
+            src="@/assets/images/image11.svg" alt="background">
       <img class="figure-person position-absolute bottom-0"
-            src="@/assets/images/image12.png" alt="person">
+            src="@/assets/images/image12.svg" alt="person">
     </figure>
   </article>
 </template>

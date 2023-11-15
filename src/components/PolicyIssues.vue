@@ -28,7 +28,7 @@
           <div class="card rounded-24 p-lg-8 p-4">
             <div class="row g-lg-0 g-4">
               <div class="col-md-7">
-                <img src="@/assets/images/image3.png" class="img-fluid rounded-24" alt="保障">
+                <img src="@/assets/images/image3.svg" class="img-fluid rounded-24" alt="保障">
               </div>
               <div class="col-md-5">
                 <div class="card-body">
@@ -50,7 +50,7 @@
           <div class="card rounded-24 p-lg-8 p-4">
             <div class="row g-lg-0 g-4">
               <div class="col-md-7">
-                <img src="@/assets/images/image4.png" class="img-fluid rounded-24" alt="福利">
+                <img src="@/assets/images/image4.svg" class="img-fluid rounded-24" alt="福利">
               </div>
               <div class="col-md-5">
                 <div class="card-body">
@@ -72,7 +72,7 @@
           <div class="card rounded-24 p-lg-8 p-4">
             <div class="row g-lg-0 g-4">
               <div class="col-md-7">
-                <img src="@/assets/images/image5.png" class="img-fluid rounded-24" alt="教育">
+                <img src="@/assets/images/image5.svg" class="img-fluid rounded-24" alt="教育">
               </div>
               <div class="col-md-5">
                 <div class="card-body">

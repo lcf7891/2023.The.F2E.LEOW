@@ -14,7 +14,7 @@
     <div class="row row-cols-lg-2 row-cols-1">
       <div class="col">
         <div class="card position-relative rounded-4">
-          <img src="@/assets/images/event1.png" class="img-fluid mb-4" alt="有善環境">
+          <img src="@/assets/images/event1.svg" class="img-fluid mb-4" alt="有善環境">
           <div class="card-body">
             <p class="h11 text-tertiary mb-2">2023/12/26</p>
             <h5 class="card-title h8 fw-7 mb-2">
@@ -31,7 +31,7 @@
         <div class="card position-relative rounded-3 mb-6">
           <div class="row g-0">
             <div class="col-4">
-              <img src="@/assets/images/event2.png"
+              <img src="@/assets/images/event2.svg"
                     class="img-fluid rounded-start pe-4"
                     alt="掃街拜票">
             </div>
@@ -52,7 +52,7 @@
         <div class="card position-relative rounded-3 mb-6">
           <div class="row g-0">
             <div class="col-4">
-              <img src="@/assets/images/event3.png"
+              <img src="@/assets/images/event3.svg"
                     class="img-fluid rounded-start pe-4"
                     alt="模特兒比拼">
             </div>
@@ -73,7 +73,7 @@
         <div class="card position-relative rounded-3 mb-6">
           <div class="row g-0">
             <div class="col-4">
-              <img src="@/assets/images/event1.png"
+              <img src="@/assets/images/event1.svg"
                     class="img-fluid rounded-start pe-4"
                     alt="有善環境">
             </div>

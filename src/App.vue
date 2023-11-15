@@ -18,7 +18,7 @@ export default {
   <router-view />
 
   <Footer />
-  <MNav class="d-lg-none position-sticky bottom-0 atomization" />
+  <MNav class="d-lg-none position-sticky bottom-0 bg-white" />
 </template>
 
 <style lang="scss">

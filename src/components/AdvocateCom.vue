@@ -26,7 +26,7 @@
           </p>
         </div>
         <div class="col">
-          <img class="img-fluid rounded-right24" src="@/assets/images/image2.png" alt="Schematic">
+          <img class="img-fluid rounded-right24" src="@/assets/images/image2.svg" alt="Schematic">
         </div>
       </div>
     </div>
