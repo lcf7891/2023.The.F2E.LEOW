@@ -1,0 +1,54 @@
+$white: #ffffff;
+
+$azure-100: #f1f5f9;
+$azure-200: #e2e8f0;
+$azure-300: #cbd5e1;
+$azure-400: #94a3b8;
+$azure-500: #64748b;
+$azure-600: #475569;
+$azure-700: #334155;
+$azure-800: #1e293b;
+$azure-900: #0f172a;
+
+$primary:       #da7d4a;
+$secondary:     $azure-700;
+$tertiary:      $azure-400;
+$info:          #f7ece1;
+$light:         #fdfcfb;
+
+$theme-colors: (
+  'primary':    $primary,
+  'secondary':  $secondary,
+	'tertiary': 	$tertiary,
+  'info':       $info,
+  'light':      $light,
+  // 'dark':       $dark,
+	'white':			$white,
+);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+	font-family: MantouSans;
+	src: url('@/assets/fonts/MantouSans-Regular.ttf') format('truetype');
+}
+
+$font-family-sans-serif:    'Noto Sans TC', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+$body-color: $azure-700;
+
+$font-base: 1rem;
+$font-size-map: (
+	1: 		$font-base * 6,
+	2: 		$font-base * 4,
+	3: 		$font-base * 3.25,
+	4: 		$font-base * 2.5,
+	5: 		$font-base * 2,
+	6: 		$font-base * 1.25,
+  7: 		$font-base * 1.5,
+	8: 		$font-base * 1.25,
+	9: 		$font-base * 1.125,
+  10: 	$font-base,
+  11: 	$font-base * 0.875,
+);
