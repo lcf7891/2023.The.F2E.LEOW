@@ -1,5 +1,5 @@
 @each $key, $value in $border-radius-map {
-  .curved-#{$key} {
+  .rounded-#{$key} {
     border-radius: $value !important;
   }
 }

@@ -5,8 +5,8 @@
       喵先鋪路
     </h2>
     <div class="d-flex flex-md-row flex-column justify-content-center align-items-center mb-4">
-      <span class="h6 fw-700 text-white bg-secondary curved-3 py-3 px-4 me-md-4 mb-md-0 mb-2">2024 立委參選人</span>
-      <p class="d-flex align-items-center h4 fw-700 text-primary text-gradient-hover curved-3 shadow py-3 px-4">
+      <span class="h6 fw-700 text-white bg-secondary rounded-3 py-3 px-4 me-md-4 mb-md-0 mb-2">2024 立委參選人</span>
+      <p class="d-flex align-items-center h4 fw-700 text-primary text-gradient-hover rounded-3 shadow py-3 px-4">
         <img class="align-text-bottom me-4" src="@img/ball.svg" alt="ball number">
         喵立翰 Miao Li-Han
       </p>

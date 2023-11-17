@@ -1,12 +1,13 @@
 <script setup>
 import Banner from '@/components/HeaderBanner.vue';
 import MarqueeList from '@/components/MarqueeList.vue';
+import Advocate from '@/components/AdvocateContent.vue';
 </script>
 
 <template>
   <header>
     <nav class="navbar navbar-expand-lg position-md-sticky top-0 px-md-6 py-md-4 mb-lg-20 mb-12">
-      <section class="container-fluid bg-white curved-3 px-md-6 px-4 py-md-4 py-3">
+      <section class="container-fluid bg-white rounded-3 px-md-6 px-4 py-md-4 py-3">
         <h1 class="text-gradient-hover mb-0">
           <router-link class="navbar-brand d-flex align-items-center text-decoration-none" to="/">
             <img class="me-2" src="@/assets/images/logo.svg" alt="logo" />
@@ -58,18 +59,16 @@ import MarqueeList from '@/components/MarqueeList.vue';
   </header>
 
   <main class="container-fluid">
+    <Advocate />
   </main>
 
   <aside class="container py-10 my-16">
-    <h2 class="d-flex justify-content-center align-items-center
-        flex-lg-row flex-column h2
-        font-mantous text-gradient
-        mb-4">
+    <h2 class="d-flex justify-content-center align-items-center flex-lg-row flex-column h2 font-mantous text-gradient mb-4">
       <span class="mx-2">台灣的明天</span>
       <span class="mx-2">喵先鋪路</span>
     </h2>
     <div class="text-center">
-      <p class="d-inline-block h4 fw-700 text-primary text-gradient-hover curved-3 shadow py-3 px-4">
+      <p class="d-inline-block h4 fw-700 text-primary text-gradient-hover rounded-3 shadow py-3 px-4">
         <img class="align-text-bottom me-4" src="@img/ball.svg" alt="ball number">
         喵立翰 Miao Li-Han
       </p>
