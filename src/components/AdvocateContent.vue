@@ -1,6 +1,6 @@
 <template>
   <article class="bg-info py-16">
-    <div class="container">
+    <div class="container my-lg-10">
       <div class="row row-cols-lg-2 row-cols-1 g-0">
         <div class="col bg-white rounded-left24 py-lg-16 py-10 px-lg-10 px-6">
           <div class="d-flex flex-column justify-content-center align-items-center mb-8">

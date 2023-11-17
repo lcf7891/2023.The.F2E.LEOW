@@ -2,78 +2,69 @@
 import Banner from '@/components/HeaderBanner.vue';
 import MarqueeList from '@/components/MarqueeList.vue';
 import Advocate from '@/components/AdvocateContent.vue';
+import FooterBanner from '@/components/FooterBanner.vue';
 </script>
 
 <template>
+ 
+  <nav class="navbar navbar-expand-lg position-md-sticky top-0 px-md-6 py-md-4 mb-lg-20 mb-12 z-3">
+    <section class="container-fluid bg-white rounded-3 px-md-6 px-4 py-md-4 py-3">
+      <h1 class="text-gradient-hover mb-0">
+        <router-link class="navbar-brand d-flex align-items-center text-decoration-none" to="/">
+          <img class="me-2" src="@/assets/images/logo.svg" alt="logo" />
+          <span class="h7 text-primary fw-700">喵立翰 Miao Li-Han</span>
+        </router-link>
+      </h1>
+      <ul class="navbar-nav d-lg-flex d-none">
+        <li class="nav-item">
+          <a href="#" class="nav-link link-secondary h9">
+            候選人主張
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-secondary h9">
+            最新活動
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-secondary h9">
+            政策議題
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-secondary h9">
+            小額捐款
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-secondary h9">
+            民眾服務信箱
+          </a>
+        </li>
+      </ul>
+      <div class="d-md-flex d-none justify-content-center align-items-center">
+          <a href="#" class="p-2">
+            <img class="zoom-hover" src="@img/facebook.svg" alt="Facebook">
+          </a>
+          <a href="#" class="p-2">
+            <img class="zoom-hover" src="@img/instagram.svg" alt="Instagram">
+          </a>
+          <a href="#" class="p-2">
+            <img class="zoom-hover" src="@img/youtube.svg" alt="Youtube">
+          </a>
+      </div>
+    </section>
+  </nav>
+
   <header>
-    <nav class="navbar navbar-expand-lg position-md-sticky top-0 px-md-6 py-md-4 mb-lg-20 mb-12">
-      <section class="container-fluid bg-white rounded-3 px-md-6 px-4 py-md-4 py-3">
-        <h1 class="text-gradient-hover mb-0">
-          <router-link class="navbar-brand d-flex align-items-center text-decoration-none" to="/">
-            <img class="me-2" src="@/assets/images/logo.svg" alt="logo" />
-            <span class="h7 text-primary fw-700">喵立翰 Miao Li-Han</span>
-          </router-link>
-        </h1>
-        <ul class="navbar-nav d-lg-flex d-none">
-          <li class="nav-item">
-            <a href="#" class="nav-link link-secondary h9">
-              候選人主張
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link-secondary h9">
-              最新活動
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link-secondary h9">
-              政策議題
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link-secondary h9">
-              小額捐款
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link-secondary h9">
-              民眾服務信箱
-            </a>
-          </li>
-        </ul>
-        <div class="d-md-flex d-none justify-content-center align-items-center">
-            <a href="#" class="p-2">
-              <img class="zoom-hover" src="@img/facebook.svg" alt="Facebook">
-            </a>
-            <a href="#" class="p-2">
-              <img class="zoom-hover" src="@img/instagram.svg" alt="Instagram">
-            </a>
-            <a href="#" class="p-2">
-              <img class="zoom-hover" src="@img/youtube.svg" alt="Youtube">
-            </a>
-        </div>
-      </section>
-    </nav>
     <Banner />
     <MarqueeList />
   </header>
 
-  <main class="container-fluid">
+  <main>
     <Advocate />
+    <FooterBanner />
   </main>
-
-  <aside class="container py-10 my-16">
-    <h2 class="d-flex justify-content-center align-items-center flex-lg-row flex-column h2 font-mantous text-gradient mb-4">
-      <span class="mx-2">台灣的明天</span>
-      <span class="mx-2">喵先鋪路</span>
-    </h2>
-    <div class="text-center">
-      <p class="d-inline-block h4 fw-700 text-primary text-gradient-hover rounded-3 shadow py-3 px-4">
-        <img class="align-text-bottom me-4" src="@img/ball.svg" alt="ball number">
-        喵立翰 Miao Li-Han
-      </p>
-    </div>
-  </aside>
 
   <footer class="bg-info py-16">
     <div class="container">
