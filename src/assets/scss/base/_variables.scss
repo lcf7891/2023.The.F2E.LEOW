@@ -1,3 +1,4 @@
+// colors
 $white: #ffffff;
 
 $azure-100: #f1f5f9;
@@ -27,6 +28,7 @@ $theme-colors: (
 );
 
 
+// font styles
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
@@ -38,17 +40,64 @@ $font-family-sans-serif:    'Noto Sans TC', system-ui, -apple-system, 'Segoe UI'
 
 $body-color: $azure-700;
 
-$font-base: 1rem;
+
+// utility
+$base-value: 1rem;
 $font-size-map: (
-	1: 		$font-base * 6,
-	2: 		$font-base * 4,
-	3: 		$font-base * 3.25,
-	4: 		$font-base * 2.5,
-	5: 		$font-base * 2,
-	6: 		$font-base * 1.25,
-  7: 		$font-base * 1.5,
-	8: 		$font-base * 1.25,
-	9: 		$font-base * 1.125,
-  10: 	$font-base,
-  11: 	$font-base * 0.875,
+	1: 		$base-value * 6,
+	2: 		$base-value * 4,
+	3: 		$base-value * 3.25,
+	4: 		$base-value * 2.5,
+	5: 		$base-value * 2,
+	6: 		$base-value * 1.75,
+  7: 		$base-value * 1.5,
+	8: 		$base-value * 1.25,
+	9: 		$base-value * 1.125,
+  10: 	$base-value * 1,
+  11: 	$base-value * 0.875,
+);
+
+$spacers: (
+	0: 		0,
+	1:  	$base-value * .25,
+	2:  	$base-value * .5,
+  3:  	$base-value * .75,
+  4:  	$base-value * 1,
+  5:  	$base-value * 1.25,
+  6:  	$base-value * 1.5,
+	7:  	$base-value * 1.75,
+  8:  	$base-value * 2,
+  9:  	$base-value * 2.25,
+  10: 	$base-value * 2.5,
+  11: 	$base-value * 2.75,
+	12: 	$base-value * 3,
+  13: 	$base-value * 3.25,
+  14: 	$base-value * 3.5,
+  15: 	$base-value * 3.75,
+  16: 	$base-value * 4,
+	17: 	$base-value * 4.25,
+  18: 	$base-value * 4.5,
+  19: 	$base-value * 4.75,
+  20: 	$base-value * 5,
+);
+
+$border-radius-map: (
+  1: $base-value * .25,
+  2: $base-value * .5,
+  3: $base-value * 1,
+  4: $base-value * 1.5,
+  5: $base-value * 2,
+  6: $base-value * 2.5,
+);
+
+$font-weights: (
+  100: 100,
+  200: 200,
+  300: 300,
+  400: 400,
+  500: 500,
+  600: 600,
+  700: 700,
+  800: 800,
+  900: 900,
 );

@@ -7,12 +7,19 @@
 	}
 }
 
+@each $key, $value in $font-weights {
+	.fw-#{$key} {
+		font-weight: $value;
+	}
+}
+
 .font-mantous {
 	font-family: MantouSans, sans-serif;
 }
 
 .text-gradient {
 	display: inline-block;
+	letter-spacing: 8px;
 	background-image: linear-gradient(90deg, #E5793B, #FF4185);
 	background-clip: text;
   -webkit-background-clip: text;

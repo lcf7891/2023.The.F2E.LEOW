@@ -5,5 +5,8 @@
 @import './vendor/bootstrap';
 
 // Customize
-@import './base/fonts';
+@import './utils/fonts';
+@import './utils/zoom';
+@import './utils/border-radius';
+
 @import './components/buttons';
