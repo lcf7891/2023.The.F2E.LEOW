@@ -4,7 +4,7 @@ import MarqueeList from '@/components/MarqueeList.vue';
 </script>
 
 <template>
-  <header class="">
+  <header>
     <nav class="navbar navbar-expand-lg position-md-sticky top-0 px-md-6 py-md-4 mb-lg-20 mb-12">
       <section class="container-fluid bg-white curved-3 px-md-6 px-4 py-md-4 py-3">
         <h1 class="text-gradient-hover mb-0">
@@ -56,8 +56,58 @@ import MarqueeList from '@/components/MarqueeList.vue';
     <Banner />
     <MarqueeList />
   </header>
+
   <main class="container-fluid">
   </main>
+
+  <aside class="container py-10 my-16">
+    <h2 class="d-flex justify-content-center align-items-center
+        flex-lg-row flex-column h2
+        font-mantous text-gradient
+        mb-4">
+      <span class="mx-2">台灣的明天</span>
+      <span class="mx-2">喵先鋪路</span>
+    </h2>
+    <div class="text-center">
+      <p class="d-inline-block h4 fw-700 text-primary text-gradient-hover curved-3 shadow py-3 px-4">
+        <img class="align-text-bottom me-4" src="@img/ball.svg" alt="ball number">
+        喵立翰 Miao Li-Han
+      </p>
+    </div>
+  </aside>
+
+  <footer class="bg-info py-16">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-lg-0 mb-6">
+          <p class="d-flex align-items-center h6 fw-700 text-primary text-gradient-hover mb-4">
+            <img class="img-ball me-2" src="@img/ball.svg" alt="ball number">
+            喵立翰 Miao Li-Han
+          </p>
+          <div class="d-flex align-items-center mb-4">
+            <a href="#" class="bg-white rounded-circle p-2 me-2">
+              <img class="zoom-hover" src="@img/facebook.svg" alt="Facebook">
+            </a>
+            <a href="#" class="bg-white rounded-circle p-2 me-2">
+              <img class="zoom-hover" src="@img/instagram.svg" alt="Instagram">
+            </a>
+            <a href="#" class="bg-white rounded-circle p-2">
+              <img class="zoom-hover" src="@img/youtube.svg" alt="Youtube">
+            </a>
+          </div>
+          <p class="h11 text-secondary">&copy; 2023 喵立翰 Miao Li-Han 版權所有</p>
+        </div>
+        <div class="col-lg-6">
+          <h4 class="h7 fw-7 text-secondary mb-4">競選總部</h4>
+          <div class="text-secondary">
+            <p class="mb-1">辦公室地址：喵星區，毛茸茸大道88號，喵喵大樓3樓</p>
+            <p class="mb-1">電話：(02) 888-5678</p>
+            <p class="mb-1">電子郵件地址：meowoffice@linmeow.tw</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <style lang="scss" scoped>
@@ -86,5 +136,9 @@ import MarqueeList from '@/components/MarqueeList.vue';
         }
       }
     }
+  }
+  .img-ball {
+    width: 32px;
+    height: 32px;
   }
 </style>

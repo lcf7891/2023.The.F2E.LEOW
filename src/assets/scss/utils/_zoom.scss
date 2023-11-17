@@ -1,4 +1,6 @@
-.zoom-hover:hover {
-  transform: scale(1.2);
+.zoom-hover {
   transition: .5s ease-in-out;
+  &:hover {
+    transform: scale(1.3);
+  }  
 }
