@@ -29,7 +29,7 @@
 
 <template>
   <article class="container my-lg-16 py-lg-10 py-16">
-    <section class="d-flex flex-column justify-content-center align-items-center mb-lg-16 mb-10">
+    <section class="d-flex flex-column justify-content-center align-items-center mb-lg-16 mb-10" data-aos="zoom-in-up">
       <span class="fw-700 text-white bg-secondary rounded-2 py-2 px-3">
         LATEST EVENTS
       </span>
@@ -38,7 +38,7 @@
       </h2>
     </section>
     <section class="row row-cols-lg-2 row-cols-1">
-      <div class="col">
+      <div class="col" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="card mb-6">
           <div class="card-body">
             <img src="@img/image3.svg" class="card-img-top" alt="有善環境">
@@ -53,7 +53,7 @@
           </div>
         </div>
       </div>
-      <div class="col d-flex flex-column">
+      <div class="col d-flex flex-column" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="card mb-6" :class="{'order-1': item.picture === 'image3'}" v-for="item, idx in events" :key="item.id">
           <div class="row gx-3">
             <div class="col-4">

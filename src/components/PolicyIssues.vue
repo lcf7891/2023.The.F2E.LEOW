@@ -6,7 +6,7 @@ register();
 <template>
   <article class="bg-info py-lg-16">
     <div class="container py-lg-10 py-16">
-      <section class="d-flex flex-column justify-content-center align-items-center mb-lg-16 mb-10">
+      <section class="d-flex flex-column justify-content-center align-items-center mb-lg-16 mb-10" data-aos="zoom-in-up">
         <span class="fw-700 text-white bg-secondary rounded-2 py-2 px-3">
           POLICY ISSUES
         </span>
@@ -25,7 +25,8 @@ register();
           coverflow-effect-stretch="0"
           coverflow-effect-depth="100"
           coverflow-effect-modifier="1"
-          coverflow-effect-slide-shadows="true">
+          coverflow-effect-slide-shadows="true"
+          data-aos="zoom-out">
         <swiper-slide>
           <div class="card p-lg-8 p-4">
             <div class="row g-lg-0 g-4">

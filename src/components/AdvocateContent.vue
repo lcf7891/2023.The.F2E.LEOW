@@ -2,7 +2,7 @@
   <article class="bg-info py-lg-16">
     <div class="container py-lg-10 py-16">
       <div class="row row-cols-lg-2 row-cols-1 g-0">
-        <div class="col bg-white rounded-left24 py-lg-16 py-10 px-lg-10 px-6">
+        <div class="col bg-white rounded-left24 py-lg-16 py-10 px-lg-10 px-6" data-aos="fade-left">
           <div class="d-flex flex-column justify-content-center align-items-center mb-8">
             <span class="fw-700 text-white bg-secondary rounded-2 py-2 px-3">
               ADVOCATE
@@ -24,7 +24,7 @@
             讓我們一同護航台灣的幸福經濟，從照顧每一隻貓咪開始。
           </p>
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade-right">
           <img class="img-fluid rounded-right24" src="@img/image2.svg" alt="Schematic">
         </div>
       </div>
