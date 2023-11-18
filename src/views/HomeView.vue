@@ -3,6 +3,7 @@ import Banner from '@/components/HeaderBanner.vue';
 import MarqueeList from '@/components/MarqueeList.vue';
 import Advocate from '@/components/AdvocateContent.vue';
 import Events from '@/components/LatestEvents.vue';
+import Issues from '@/components/PolicyIssues.vue';
 import DonateMail from '@/components/DonateMail.vue';
 import FooterBanner from '@/components/FooterBanner.vue';
 import MobileNav from '@/components/MobileNav.vue';
@@ -30,7 +31,7 @@ import MobileNav from '@/components/MobileNav.vue';
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link link-secondary h9">
+          <a href="#policy" class="nav-link link-secondary h9">
             政策議題
           </a>
         </li>
@@ -67,6 +68,7 @@ import MobileNav from '@/components/MobileNav.vue';
   <main>
     <Advocate id="advocate" />
     <Events id="events" />
+    <Issues id="policy" />
     <DonateMail id="donate-mail" />
     <FooterBanner />
   </main>

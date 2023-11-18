@@ -1,6 +1,6 @@
 <template>
-  <nav class="position-sticky bottom-0 bg-white">
-    <ul class="nav justify-content-around z-3">
+  <nav class="d-lg-none d-block position-sticky bottom-0 bg-white z-3">
+    <ul class="nav justify-content-around">
       <li class="shake">
         <a href="#advocate" class="nav-link text-secondary px-md-4 p-2">
           <img src="@img/user.svg" alt="主張">
@@ -14,7 +14,7 @@
         </a>
       </li>
       <li class="shake">
-        <a href="#" class="nav-link text-secondary px-md-4 p-2">
+        <a href="#policy" class="nav-link text-secondary px-md-4 p-2">
           <img src="@img/issue.svg" alt="議題">
           政策議題
         </a>

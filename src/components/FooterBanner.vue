@@ -1,5 +1,5 @@
 <template>
-  <aside class="container py-10 my-16">
+  <aside class="container py-16 my-lg-10">
     <h2 class="d-flex justify-content-center align-items-center flex-lg-row flex-column h2 font-mantous text-gradient mb-4">
       <span class="mx-2">台灣的明天</span>
       <span class="mx-2">喵先鋪路</span>
