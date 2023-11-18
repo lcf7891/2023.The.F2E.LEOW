@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="order-5">
-          <button type="button" class="btn-pill">
+          <button type="button" class="btn-pill fw-600">
             查看更多
             <span class="btn-arrow"></span>
           </button>

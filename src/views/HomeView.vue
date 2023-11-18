@@ -5,6 +5,7 @@ import Advocate from '@/components/AdvocateContent.vue';
 import Events from '@/components/LatestEvents.vue';
 import DonateMail from '@/components/DonateMail.vue';
 import FooterBanner from '@/components/FooterBanner.vue';
+import MobileNav from '@/components/MobileNav.vue';
 </script>
 
 <template>
@@ -102,6 +103,7 @@ import FooterBanner from '@/components/FooterBanner.vue';
       </div>
     </div>
   </footer>
+  <MobileNav />
 </template>
 
 <style lang="scss" scoped>
