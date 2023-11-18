@@ -2,6 +2,7 @@
 import Banner from '@/components/HeaderBanner.vue';
 import MarqueeList from '@/components/MarqueeList.vue';
 import Advocate from '@/components/AdvocateContent.vue';
+import Events from '@/components/LatestEvents.vue';
 import FooterBanner from '@/components/FooterBanner.vue';
 </script>
 
@@ -17,12 +18,12 @@ import FooterBanner from '@/components/FooterBanner.vue';
       </h1>
       <ul class="navbar-nav d-lg-flex d-none">
         <li class="nav-item">
-          <a href="#" class="nav-link link-secondary h9">
+          <a href="#advocate" class="nav-link link-secondary h9">
             候選人主張
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link link-secondary h9">
+          <a href="#events" class="nav-link link-secondary h9">
             最新活動
           </a>
         </li>
@@ -62,7 +63,8 @@ import FooterBanner from '@/components/FooterBanner.vue';
   </header>
 
   <main>
-    <Advocate />
+    <Advocate id="advocate" />
+    <Events id="events" />
     <FooterBanner />
   </main>
 
@@ -88,7 +90,7 @@ import FooterBanner from '@/components/FooterBanner.vue';
           <p class="h11 text-secondary">&copy; 2023 喵立翰 Miao Li-Han 版權所有</p>
         </div>
         <div class="col-lg-6">
-          <h4 class="h7 fw-7 text-secondary mb-4">競選總部</h4>
+          <h4 class="h7 fw-700 text-secondary mb-4">競選總部</h4>
           <div class="text-secondary">
             <p class="mb-1">辦公室地址：喵星區，毛茸茸大道88號，喵喵大樓3樓</p>
             <p class="mb-1">電話：(02) 888-5678</p>
