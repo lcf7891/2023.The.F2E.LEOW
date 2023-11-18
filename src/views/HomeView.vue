@@ -3,6 +3,7 @@ import Banner from '@/components/HeaderBanner.vue';
 import MarqueeList from '@/components/MarqueeList.vue';
 import Advocate from '@/components/AdvocateContent.vue';
 import Events from '@/components/LatestEvents.vue';
+import DonateMail from '@/components/DonateMail.vue';
 import FooterBanner from '@/components/FooterBanner.vue';
 </script>
 
@@ -33,12 +34,12 @@ import FooterBanner from '@/components/FooterBanner.vue';
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link link-secondary h9">
+          <a href="#donate-mail" class="nav-link link-secondary h9">
             小額捐款
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link link-secondary h9">
+          <a href="#donate-mail" class="nav-link link-secondary h9">
             民眾服務信箱
           </a>
         </li>
@@ -65,6 +66,7 @@ import FooterBanner from '@/components/FooterBanner.vue';
   <main>
     <Advocate id="advocate" />
     <Events id="events" />
+    <DonateMail id="donate-mail" />
     <FooterBanner />
   </main>
 

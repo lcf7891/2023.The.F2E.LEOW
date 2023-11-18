@@ -2,6 +2,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  border: none;
+  outline: none;
   border-radius: 500px;
   @media (min-width: 992px) {
     padding: 16px 24px;

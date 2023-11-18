@@ -87,16 +87,12 @@
 </template>
 
 <style lang="scss" scoped>
-  button {
-    border: none;
-    outline: none;
-  }
   .card {
     position: relative;
     border-radius: 16px;
     transition: 1s ease-in-out;
     &:hover {
-      background-color: rgba(#DA7D4A, .5);
+      background-color: #f7ece1;
     }
     &-img-top {
       max-width: 100%;
