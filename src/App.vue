@@ -7,7 +7,7 @@ const show = ref(false)
 
 setTimeout(() => {
   show.value = true
-}, 1000)
+}, 1500)
 </script>
 
 <template>

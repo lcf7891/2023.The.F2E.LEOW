@@ -1,6 +1,11 @@
-<script setup>
-import { register } from 'swiper/element/bundle';
-register();
+<script>
+import { register } from 'swiper/element/bundle'
+
+export default {
+  created () {
+    register()
+  }
+}
 </script>
 
 <template>
@@ -14,7 +19,7 @@ register();
           政策議題
         </h2>
       </section>
-      <swiper-container class="mySwiper"
+      <swiper-container
           pagination="true"
           effect="coverflow"
           grab-cursor="true"

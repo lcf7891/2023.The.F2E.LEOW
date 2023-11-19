@@ -1,30 +1,46 @@
-<script setup>
-  import { ref } from 'vue';
-  import { v4 as uuidv4 } from 'uuid';
+<script>
+import { v4 as uuidv4 } from 'uuid'
+import Modal from './Modal.vue'
 
-  const events = ref([
-    {
-      id: uuidv4(),
-      date: '2023/12/26',
-      title: '參與台北寵物論壇，爭取貓咪友善環境',
-      description: '炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的 VIP 休憩空間。',
-      picture: 'image3',
-    },
-    {
-      id: uuidv4(),
-      date: '2023/12/24',
-      title: '掃街模式開啟！帶著你的貓耳，來和我一起走！',
-      description: '街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！',
-      picture: 'image4',
-    },
-    {
-      id: uuidv4(),
-      date: '2023/12/20',
-      title: '收容所模特兒大比拼！',
-      description: '今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！',
-      picture: 'image5',
+export default {
+  components: {
+    Modal
+  },
+  data() {
+    return {
+      activitys: [
+        {
+          id: uuidv4(),
+          date: '2023/12/26',
+          title: '參與台北寵物論壇，爭取貓咪友善環境',
+          description: '炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的 VIP 休憩空間。',
+          picture: 'image3',
+        },
+        {
+          id: uuidv4(),
+          date: '2023/12/24',
+          title: '掃街模式開啟！帶著你的貓耳，來和我一起走！',
+          description: '街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！',
+          picture: 'image4',
+        },
+        {
+          id: uuidv4(),
+          date: '2023/12/20',
+          title: '收容所模特兒大比拼！',
+          description: '今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！',
+          picture: 'image5',
+        }
+      ],
+      itemData: {}
     }
-  ]);
+  },
+  methods: {
+    openModal(activity) {
+      this.$refs.activityModal.showModal()
+      this.itemData = activity
+    }
+  }
+}
 </script>
 
 <template>
@@ -42,19 +58,19 @@
         <div class="card mb-6">
           <div class="card-body">
             <img src="@img/image3.svg" class="card-img-top" alt="有善環境">
-            <p class="h11 text-tertiary mb-2">{{ events[0].date }}</p>
+            <p class="h11 text-tertiary mb-2">{{ activitys[0].date }}</p>
             <h3 class="card-title h8 fw-700">
-              {{ events[0].title }}
+              {{ activitys[0].title }}
             </h3>
             <p class="card-text">
-              {{ events[0].description }}
+              {{ activitys[0].description }}
             </p>
-            <button type="button" class="btn stretched-link"></button>
+            <button type="button" class="btn stretched-link" @click="openModal(activitys[0])"></button>
           </div>
         </div>
       </div>
       <div class="col d-flex flex-column" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-        <div class="card mb-6" :class="{'order-1': item.picture === 'image3'}" v-for="item, idx in events" :key="item.id">
+        <div class="card mb-6" :class="{'order-1': item.picture === 'image3'}" v-for="item, idx in activitys" :key="item.id">
           <div class="row gx-3">
             <div class="col-4">
               <img src="@img/image3.svg" class="img-fluid rounded-2" alt="有善環境" v-if="item.picture === 'image3'">
@@ -83,10 +99,19 @@
         </div>
       </div>
     </section>
+    <Modal :showData="itemData" ref="activityModal">
+      <template #test>
+        input test
+      </template>
+    </Modal>
   </article>
 </template>
 
 <style lang="scss" scoped>
+  button {
+    border: none;
+    outline: none;
+  }
   .card {
     position: relative;
     border-radius: 16px;

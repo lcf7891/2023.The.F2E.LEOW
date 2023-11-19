@@ -1,0 +1,33 @@
+.modal {
+  &-header {
+    border: none;
+    padding: 24px 48px;
+    margin-bottom: 8px;
+  }
+  &-body {
+    padding: 0 48px 48px 48px;
+  }
+  &-btn-close {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    color: $white;
+    background-color: $secondary;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: .5s ease-in-out;
+    &::before {
+      content: '\00d7';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+    }
+    &:hover {
+      background-color: $primary;
+      color: $secondary;
+    }
+  }
+}

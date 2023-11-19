@@ -1,12 +1,25 @@
-<script setup>
-import Banner from '@/components/HeaderBanner.vue';
-import MarqueeList from '@/components/MarqueeList.vue';
-import Advocate from '@/components/AdvocateContent.vue';
-import Events from '@/components/LatestEvents.vue';
-import Issues from '@/components/PolicyIssues.vue';
-import DonateMail from '@/components/DonateMail.vue';
-import FooterBanner from '@/components/FooterBanner.vue';
-import MobileNav from '@/components/MobileNav.vue';
+<script>
+import Banner from '@/components/HeaderBanner.vue'
+import MarqueeList from '@/components/MarqueeList.vue'
+import Advocate from '@/components/AdvocateContent.vue'
+import Events from '@/components/LatestEvents.vue'
+import Issues from '@/components/PolicyIssues.vue'
+import DonateMail from '@/components/DonateMail.vue'
+import FooterBanner from '@/components/FooterBanner.vue'
+import MobileNav from '@/components/MobileNav.vue'
+
+export default {
+  components: {
+    Banner,
+    MarqueeList,
+    Advocate,
+    Events,
+    Issues,
+    DonateMail,
+    FooterBanner,
+    MobileNav,
+  }
+}
 </script>
 
 <template>
