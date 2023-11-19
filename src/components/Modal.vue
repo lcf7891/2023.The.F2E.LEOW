@@ -23,7 +23,6 @@ export default {
   },
   mounted() {
     this.modalView = new Modal(this.$refs.modalRef)
-    this.modalView.show()
   },
 }
 </script>
