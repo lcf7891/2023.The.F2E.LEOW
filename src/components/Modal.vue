@@ -40,7 +40,7 @@ export default {
         <div class="modal-body">
           <div class="container-fluid">
             <div class="row">
-              <slot name="modal-body"></slot>
+              <slot name="body"></slot>
             </div>
           </div>
         </div>

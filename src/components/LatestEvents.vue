@@ -100,8 +100,11 @@ export default {
       </div>
     </section>
     <Modal :showData="itemData" ref="activityModal">
-      <template #test>
-        input test
+      <template #title>
+        {{ itemData.title }}
+      </template>
+      <template #body>
+        {{ itemData.description }}
       </template>
     </Modal>
   </article>
