@@ -24,8 +24,8 @@ export default {
 
 <template>
  
-  <nav class="navbar navbar-expand-lg position-md-sticky top-0 px-md-6 py-md-4 mb-lg-20 mb-12 z-3">
-    <section class="container-fluid bg-white rounded-3 px-md-6 px-4 py-md-4 py-3">
+  <nav class="navbar navbar-expand-lg position-md-sticky top-0 mb-lg-20 mb-12 z-3">
+    <section class="container-fluid bg-white rounded-3 px-md-6 px-4 py-md-4 py-3 mx-md-6 my-md-4">
       <h1 class="text-gradient-hover mb-0">
         <router-link class="navbar-brand d-flex align-items-center text-decoration-none" to="/">
           <img class="me-2" src="@/assets/images/logo.svg" alt="logo" />

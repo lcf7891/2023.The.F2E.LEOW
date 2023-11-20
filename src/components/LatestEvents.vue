@@ -99,9 +99,9 @@ export default {
         </div>
       </div>
     </section>
-    <Modal :showData="itemData" ref="activityModal">
+    <Modal ref="activityModal">
       <template #title>
-        {{ itemData.title }}
+        最新活動
       </template>
       <template #body>
         {{ itemData.description }}

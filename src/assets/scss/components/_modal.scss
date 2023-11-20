@@ -1,8 +1,11 @@
 .modal {
   &-header {
     border: none;
-    padding: 24px 48px;
+    padding: 16px;
     margin-bottom: 8px;
+    @media (min-width: 768px) {
+      padding: 24px 48px;
+    }
   }
   &-body {
     padding: 0 48px 48px 48px;

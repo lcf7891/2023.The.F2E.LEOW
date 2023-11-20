@@ -1,13 +1,21 @@
-<script setup>
-import { ref } from 'vue'
-import { RouterView } from 'vue-router'
+<script>
 import Loading from './components/LoadingView.vue'
 
-const show = ref(false)
-
-setTimeout(() => {
-  show.value = true
-}, 1500)
+export default {
+  components: {
+    Loading
+  },
+  data() {
+    return {
+      show: false,
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.show = true
+    }, 1500)
+  },  
+}
 </script>
 
 <template>
