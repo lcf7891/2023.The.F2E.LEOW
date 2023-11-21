@@ -1,5 +1,5 @@
 <template>
-  <article class="container pt-lg-4">
+  <article class="container position-relative pt-lg-4">
     <h2 class="d-flex flex-lg-row flex-column justify-content-center align-items-center h1 font-mantous text-gradient mb-4" data-aos="zoom-in-up">
       <span class="me-md-5">台灣的明天</span>
       喵先鋪路
@@ -15,8 +15,8 @@
       <img class="figure-bg position-absolute bottom-0" src="@img/image1-2.svg" alt="background" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <img class="figure-person position-absolute bottom-0" src="@img/image1-1.svg" alt="person"
       data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-
     </figure>
+    <slot name="social"></slot>
   </article>
 </template>
 
@@ -47,5 +47,8 @@
         height: 404px;
       }
     }
+  }
+  .z-100 {
+    z-index: 100000;
   }
 </style>

@@ -1,4 +1,5 @@
 <script>
+import SocialLinks from '@/components/SocialLinks.vue'
 import Banner from '@/components/HeaderBanner.vue'
 import MarqueeList from '@/components/MarqueeList.vue'
 import Advocate from '@/components/AdvocateContent.vue'
@@ -10,6 +11,7 @@ import MobileNav from '@/components/MobileNav.vue'
 
 export default {
   components: {
+    SocialLinks,
     Banner,
     MarqueeList,
     Advocate,
@@ -59,32 +61,20 @@ export default {
           </a>
         </li>
       </ul>
-      <div class="d-md-flex d-none justify-content-center align-items-center">
-          <a href="#" class="p-2">
-            <img class="zoom-hover" src="@img/facebook.svg" alt="Facebook">
-          </a>
-          <a href="#" class="p-2">
-            <img class="zoom-hover" src="@img/instagram.svg" alt="Instagram">
-          </a>
-          <a href="#" class="p-2">
-            <img class="zoom-hover" src="@img/youtube.svg" alt="Youtube">
-          </a>
-      </div>
+      <SocialLinks class="d-md-flex d-none" />
     </section>
   </nav>
-
-  <header>
-    <Banner />
-    <MarqueeList />
-  </header>
-
-  <main>
-    <Advocate id="advocate" />
-    <Events id="events" />
-    <Issues id="policy" />
-    <DonateMail id="donate-mail" />
-    <FooterBanner />
-  </main>
+  <Banner>
+    <template #social>
+      <SocialLinks class="d-md-none d-flex position-absolute bottom-0 start-50 translateY bg-white rounded-3 mb-5" />
+    </template>
+  </Banner>
+  <MarqueeList />
+  <Advocate id="advocate" />
+  <Events id="events" />
+  <Issues id="policy" />
+  <DonateMail id="donate-mail" />
+  <FooterBanner />
 
   <footer class="bg-info py-16">
     <div class="container">
@@ -147,6 +137,9 @@ export default {
         }
       }
     }
+  }
+  .translateY {
+    transform: translateX(-50%);
   }
   .img-ball {
     width: 32px;

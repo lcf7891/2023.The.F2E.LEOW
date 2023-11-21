@@ -1,6 +1,7 @@
 // colors
 $white: #ffffff;
 
+$azure-050: #f8fafc;
 $azure-100: #f1f5f9;
 $azure-200: #e2e8f0;
 $azure-300: #cbd5e1;
@@ -11,20 +12,22 @@ $azure-700: #334155;
 $azure-800: #1e293b;
 $azure-900: #0f172a;
 
-$primary:       #da7d4a;
-$secondary:     $azure-700;
-$tertiary:      $azure-500;
-$info:          #f7ece1;
-$light:         #fdfcfb;
+$primary:        #da7d4a;
+$secondary:      $azure-700;
+$tertiary:       $azure-500;
+$info:           #f7ece1;
+$info-secondary: $azure-050;
+$light:          #fdfcfb;
 
 $theme-colors: (
-  'primary':    $primary,
-  'secondary':  $secondary,
-	'tertiary': 	$tertiary,
-  'info':       $info,
-  'light':      $light,
-  // 'dark':       $dark,
-	'white':			$white,
+  'primary':        $primary,
+  'secondary':      $secondary,
+	'tertiary': 	    $tertiary,
+  'info':           $info,
+  'info-secondary': $info-secondary,
+  'light':          $light,
+  // 'dark':           $dark,
+	'white':			    $white,
 );
 
 
