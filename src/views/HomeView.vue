@@ -25,7 +25,6 @@ export default {
 </script>
 
 <template>
- 
   <nav class="navbar navbar-expand-lg position-md-sticky top-0 mb-lg-20 mb-12 z-3">
     <section class="container-fluid bg-white rounded-3 px-md-6 px-4 py-md-4 py-3 mx-md-6 my-md-4">
       <h1 class="text-gradient-hover mb-0">
@@ -64,16 +63,18 @@ export default {
       <SocialLinks class="d-md-flex d-none" />
     </section>
   </nav>
+
   <Banner>
     <template #social>
       <SocialLinks class="d-md-none d-flex position-absolute bottom-0 start-50 translateY bg-white rounded-3 mb-5" />
     </template>
   </Banner>
+
   <MarqueeList />
-  <Advocate id="advocate" />
-  <Events id="events" />
-  <Issues id="policy" />
-  <DonateMail id="donate-mail" />
+  <Advocate />
+  <Events />
+  <Issues />
+  <DonateMail />
   <FooterBanner />
 
   <footer class="bg-info py-16">
@@ -108,6 +109,7 @@ export default {
       </div>
     </div>
   </footer>
+  
   <MobileNav />
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <article class="bg-info py-lg-16">
+  <article class="bg-info py-lg-16" id="advocate">
     <div class="container py-lg-10 py-16">
       <div class="row row-cols-lg-2 row-cols-1 g-0">
         <div class="col bg-white rounded-left24 py-lg-16 py-10 px-lg-10 px-6" data-aos="fade-left">

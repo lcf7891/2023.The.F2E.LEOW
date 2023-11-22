@@ -1,7 +1,27 @@
 <script>
+import { mapState } from 'pinia'
+import { useInfoStore } from '../stores/InfoStore'
+import Modal from './ContentModal.vue'
 import { register } from 'swiper/element/bundle'
 
 export default {
+  components: {
+    Modal
+  },
+  data() {
+    return {
+      itemData: {}
+    }
+  },
+  computed: {
+    ...mapState(useInfoStore, ['topic'])
+  },
+  methods: {
+    openModal(issues) {
+      this.itemData = issues
+      this.$refs.issuesModalRef.showModal() 
+    }
+  },
   created () {
     register()
   }
@@ -9,7 +29,7 @@ export default {
 </script>
 
 <template>
-  <article class="bg-info py-lg-16">
+  <article class="bg-info py-lg-16" id="policy">
     <div class="container py-lg-10 py-16">
       <section class="d-flex flex-column justify-content-center align-items-center mb-lg-16 mb-10" data-aos="zoom-in-up">
         <span class="fw-700 text-white bg-secondary rounded-2 py-2 px-3">
@@ -32,73 +52,40 @@ export default {
           coverflow-effect-modifier="1"
           coverflow-effect-slide-shadows="true"
           data-aos="zoom-out">
-        <swiper-slide>
-          <div class="card p-lg-8 p-4">
-            <div class="row g-lg-0 g-4">
-              <div class="col-md-7">
-                <img src="@img/image6.svg" class="img-fluid" alt="保障">
-              </div>
-              <div class="col-md-5">
-                <div class="card-body">
-                  <span class="bg-info rounded-pill text-secondary px-3 py-1 mb-4">喵的保障</span>
-                  <h3 class="card-title h7">
-                    為毛孩子謀福利！<br>
-                    推動寵物醫療保障方案
-                  </h3>
-                  <button type="button" class="btn-pill fw-700">
-                    查看
-                    <span class="btn-arrow"></span>
-                  </button>
+        <template v-for="item in topic" :key="item.id">
+          <swiper-slide>
+            <div class="card p-lg-8 p-4">
+              <div class="row g-lg-0 g-4">
+                <div class="col-md-7">
+                  <img src="@img/image6.svg" class="img-fluid" alt="保障" v-if="item.picture === 'image6'">
+                  <img src="@img/image7.svg" class="img-fluid" alt="福利"  v-if="item.picture === 'image7'">
+                  <img src="@img/image8.svg" class="img-fluid" alt="教育"  v-if="item.picture === 'image8'">
+                </div>
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <span class="bg-info rounded-pill text-secondary px-3 py-1 mb-4">
+                      {{ item.subtitle }}
+                    </span>
+                    <h3 class="card-title h7">
+                      {{ item.title }}
+                    </h3>
+                    <button type="button" class="btn-pill fw-700" @click="openModal(item)">
+                      查看
+                      <span class="btn-arrow"></span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="card p-lg-8 p-4">
-            <div class="row g-lg-0 g-4">
-              <div class="col-md-7">
-                <img src="@img/image7.svg" class="img-fluid" alt="福利">
-              </div>
-              <div class="col-md-5">
-                <div class="card-body">
-                  <span class="bg-info rounded-pill text-secondary px-3 py-1 mb-4">喵的福利</span>
-                  <h3 class="card-title h7">
-                    打造休閒天堂！<br>
-                    推廣寵物休閒與娛樂場所
-                  </h3>
-                  <button type="button" class="btn-pill fw-700">
-                    查看
-                    <span class="btn-arrow"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="card p-lg-8 p-4">
-            <div class="row g-lg-0 g-4">
-              <div class="col-md-7">
-                <img src="@img/image8.svg" class="img-fluid" alt="教育">
-              </div>
-              <div class="col-md-5">
-                <div class="card-body">
-                  <span class="bg-info rounded-pill text-secondary px-3 py-1 mb-4">喵的教育</span>
-                  <h3 class="card-title h7">
-                    推廣寵物飼養教育，讓愛更加專業
-                  </h3>
-                  <button type="button" class="btn-pill fw-700">
-                    查看
-                    <span class="btn-arrow"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </swiper-slide>
+          </swiper-slide>
+        </template>
       </swiper-container>
     </div>
+    <Modal :viewData="itemData" ref="issuesModalRef">
+      <template #title>
+        政策議題
+      </template>
+    </Modal>
   </article>
 </template>
 

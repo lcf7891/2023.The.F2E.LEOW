@@ -7,19 +7,19 @@ export default {
   },
   data() {
     return {
-      show: false,
+      rendering: false,
     }
   },
   mounted() {
     setTimeout(() => {
-      this.show = true
+      this.rendering = true
     }, 1500)
   },  
 }
 </script>
 
 <template>
-  <RouterView v-if="show" />
+  <RouterView v-if="rendering" />
   <Loading v-else />
 </template>
 

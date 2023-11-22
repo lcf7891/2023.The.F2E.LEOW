@@ -1,5 +1,5 @@
 <template>
-  <article class="container my-lg-16 py-lg-10 py-16">
+  <article class="container my-lg-16 py-lg-10 py-16" id="donate-mail">
     <div class="row row-cols-md-2 row-cols-1">
       <div class="col mb-md-0 mb-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <section class="bg-primary rounded-5 p-lg-20 pt-10 pb-8 px-6 h-100">
