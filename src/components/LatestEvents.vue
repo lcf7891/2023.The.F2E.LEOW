@@ -90,10 +90,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-  button {
-    border: none;
-    outline: none;
-  }
   .card {
     position: relative;
     border-radius: 16px;
