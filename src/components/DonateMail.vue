@@ -1,3 +1,24 @@
+<script>
+import Modal from './InputModal.vue'
+
+export default {
+  components: {
+    Modal
+  },
+  data() {
+    return {
+      isState: ''
+    }
+  },
+  methods: {
+    openModal(state) {
+      this.isState = state
+      this.$refs.inputModalRef.showModal()
+    }
+  }
+}
+</script>
+
 <template>
   <article class="container my-lg-16 py-lg-10 py-16" id="donate-mail">
     <div class="row row-cols-md-2 row-cols-1">
@@ -11,7 +32,7 @@
           </p>
           <div class="row">
             <div class="col-6 d-flex align-items-center">
-              <button type="button" class="btn-pill fw-700">
+              <button type="button" class="btn-pill fw-700" @click="openModal('小額捐款')">
                 小額捐款
                 <span class="btn-arrow"></span>
               </button>
@@ -32,7 +53,7 @@
           </p>
           <div class="row">
             <div class="col-6 d-flex align-items-center">
-              <button type="button" class="btn-pill fw-700">
+              <button type="button" class="btn-pill fw-700" @click="openModal('民眾服務信箱')">
                 填寫表單
                 <span class="btn-arrow"></span>
               </button>
@@ -44,6 +65,12 @@
         </section>
       </div>
     </div>
+
+    <Modal :outsideState="isState" ref="inputModalRef">
+      <template #title>
+        {{ isState }}
+      </template>
+    </Modal>
   </article>
 </template>
 

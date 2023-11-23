@@ -16,7 +16,7 @@ $primary:        #da7d4a;
 $secondary:      $azure-700;
 $tertiary:       $azure-500;
 $info:           #f7ece1;
-$info-secondary: $azure-050;
+$info-secondary: $azure-100;
 $light:          #fdfcfb;
 
 $theme-colors: (
@@ -29,7 +29,6 @@ $theme-colors: (
   // 'dark':           $dark,
 	'white':			    $white,
 );
-
 
 // font styles
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -104,3 +103,5 @@ $font-weights: (
   800: 800,
   900: 900,
 );
+
+$input-bg: $azure-100;

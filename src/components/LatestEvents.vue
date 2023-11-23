@@ -18,7 +18,7 @@ export default {
   methods: {
     openModal(activity) {
       this.itemData = activity
-      this.$refs.activityModalRef.showModal() 
+      this.$refs.activityModalRef.showModal()
     }
   }
 }
@@ -90,6 +90,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+  button {
+    border: none;
+    outline: none;
+  }
   .card {
     position: relative;
     border-radius: 16px;
