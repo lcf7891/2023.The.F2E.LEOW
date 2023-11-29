@@ -12,18 +12,3 @@
 * SCSS
 * Bootstrap v5.3.2
 * Swiper 11.0.4
-
-## 資料夾樹
-public
-src
-├── assets
-│   ├── fonts
-│   ├── images
-│   ├── jsons
-│   └── scss
-├── components
-├── router
-├── stores
-└── views
-
-
