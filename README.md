@@ -6,9 +6,9 @@
 * [展示作品](https://lcf7891.github.io/2023.The.F2E.LEOW/)
 
 ## 使用技術
-* Vite v4.4.11
-* Vue v3.3.4
-* Pinia v2.1.7
+* Vite  ^4.4.11
+* Vue  ^3.3.4
+* Pinia  ^2.1.7
 * SCSS
-* Bootstrap v5.3.2
-* Swiper 11.0.4
+* Bootstrap  ^5.3.2
+* Swiper  ^11.0.4
